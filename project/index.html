@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Med-Connection Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="myscripts.js"></script>
+
+</head>
+
+<body id="mainbody">
+  <div id="navbar">
+    <h1 id="slogan">Empowering Health, Embracing Wellness: Your Journey
+      to Medical Wellness Starts Here!</h1>
+    <div id="logo">
+      <img id="logo" src="Image/Logo.png" alt="logo">
+    </div>
+  </div>
+  <div class="navbar">
+     <div class="nav-item" onclick="showPopup()">Care at MCH clinic</div>
+    <div class="nav-item">Health <br>Library</div>
+    <div class="nav-item">For Medical Professionals</div>
+    <div class="nav-item">Research & Education at MCH Clinic</div>
+    <div class="nav-item">Get Medical Certification</div>
+    <div class="nav-item button">Request appointment</div>
+  </div>
+  <div class="popup" id="popup">
+    This is the popup content for "Care at MCH clinic".
+    <button onclick="hidePopup()">Close</button>
+  </div>
+
+  <script>
+    function showPopup() {
+      document.getElementById('popup').style.display = 'block';
+    }
+
+    function hidePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+  </script>
+<div class="video-container">
+    <video autoplay loop>
+        <source src="Video/MCH video.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="text-overlay">
+    <div class="container">
+        <div class="title">Transforming Your Care</div>
+        <div class="subtitle">Learn how we drive innovation</div>
+        <div class="boader-appo"><a class="button-appo" href="Request_apponiment/apponiment.html">Request appointment</a>
+      </div>
+      </div>
+</div>
+<div class="Searchfor">
+  <h1 class="headingforsearch">
+    Find diseases & conditions by first letter
+  </h1>
+</div>
+<div class="buttons-container">
+    <button><a class="abutton" href="page/pageA.html">A</a></button>
+    <button><a class="bbutton" href="page/pageB.html">B</a></button>
+    <button><a class="cbutton" href="page/pageC.html">C</a></button>
+    <button>D</button>
+    <button>E</button>
+    <button>F</button>
+    <button>G</button>
+    <button>H</button>
+    <button>I</button>
+    <button>J</button>
+    <button>K</button>
+  </div>
+  <div class="buttons-container2">
+
+    <button>L</button>
+    <button>M</button>
+    <button>N</button>
+    <button>O</button>
+    <button>P</button>
+    <button>Q</button>
+    <button>R</button>
+    <button>S</button>
+    <button>T</button>
+    <button>U</button>
+    <button>V</button>
+   
+  </div>
+  <div class="buttons-container3">
+    
+    <button>W</button>
+    <button>X</button>
+    <button>Y</button>
+    <button>Z</button>
+    <button>#</button>
+  </div>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search diseases & conditions" oninput="toggleSearchButton()">
+    <button id="searchButton" style="display: none;">Search</button>
+  </div>
+
+  <script>
+    function toggleSearchButton() {
+      var input = document.getElementById("searchInput");
+      var button = document.getElementById("searchButton");
+      
+      if (input.value.trim() === "") {
+        button.style.display = "none";
+      } else {
+        button.style.display = "inline-block";
+      }
+    }
+  </script>
+  <hr class="line">
+  <img src="Image/medical 1.jpg" alt="Doctor" srcset="" class="Doctor_image">
+  <div class="aboutclick">
+  <h1 class="headingff">
+    Healing starts here
+  </h1>
+  <p class="paragraph1">
+    <b>Healing starts here
+    The right answers the first time</b><br>
+    Effective treatment depends on getting the right 
+    diagnosis. <br> Our experts diagnose and treat the toughest 
+    <br>medical challenges.
+  <br>
+<br>
+<B>Top-ranked in the U.S.</B><br>
+
+Med-Connection Hub has more No. 1 rankings <br>
+than any other hospital in the nation according to U.S. <br>
+ News & World Report. <a href="https://www.mayoclinic.org/about-mayo-clinic/quality/top-ranked">Learn more about our <br>top-ranked specialties.</a> </p>
+
+ <img class="image2" src="Image/medical2.jpg" alt="sas" srcset="">
+ <h1 class="heading22">World-class care for <br>global patients <br></h1>
+ <p class="passage2">We make it easy for patients around the world to get <br> care from Med-Connection Hub.</p>
+
+</div>
+</body>
+<footer>
+  <div class="footer1">
+    <div class="footerbutton">
+      <input type="button" value="Find a Doctor"> <br>
+      <input type="button" value="Explor Careers"> <br>
+      <input type="button" value="Sign-in for free e-newsletter">
+    </div>
+    <div class="List">
+  
+      <li><a href="" style="color: aliceblue; font-size: 20px;"><b>About Mayo Clinic</b></a></li><br>
+      <li><a href=""style="color: aliceblue;">About this Site</a></li><br>
+      <li><a href=""style="color: aliceblue;">Contact Us</a></li><br>
+      <li><a href=""style="color: aliceblue;">Locations</a></li><br>
+      <li><a href=""style="color: aliceblue;">Health Information Policy</a></li><br>
+      <li><a href=""style="color: aliceblue;">News Network</a></li><br>
+      <li><a href=""style="color: aliceblue;">Price Transparency</a></li><br>
+  
+    </div>
+    <div class="List1">
+  
+      <li><a href="" style="color: aliceblue; font-size: 20px;"><b>Businesses </b></a></li><br>
+      <li><a href=""style="color: aliceblue;">Executive Health Program</a></li><br>
+      <li><a href=""style="color: aliceblue;">International Business Collaborations</a></li><br>
+      <li><a href=""style="color: aliceblue;">Facilities & Real Estate</a></li><br>
+  
+    </div>
+    <div class="List2">
+  
+      <li><a href="" style="color: aliceblue; font-size: 20px;"><b>Medical Professionals </b></a></li><br>
+      <li><a href=""style="color: aliceblue;">AskMayoExpert</a></li><br>
+      <li><a href=""style="color: aliceblue;">Clinical Trials</a></li><br>
+      <li><a href=""style="color: aliceblue;">Mayo Clinic Alumni Association</a></li><br>
+      <li><a href=""style="color: aliceblue;">Refer a Patient</a></li><br>
+    </div>
+    <div class="List3">
+  
+      <li><a href="" style="color: aliceblue; font-size: 20px;"><b>Students </b></a></li><br>
+      <li><a href=""style="color: aliceblue;">Admissions Requirements</a></li><br>
+      <li><a href=""style="color: aliceblue;">Degree Programs</a></li><br>
+      <li><a href=""style="color: aliceblue;">Locations</a></li><br>
+      <li><a href=""style="color: aliceblue;">Health Information Policy</a></li><br>
+      <li><a href=""style="color: aliceblue;">News Network</a></li><br>
+      <li><a href=""style="color: aliceblue;">Price Transparency</a></li><br>  
+    </div>
+  </div>
+  <div id="app">
+  <h1 >Get The Med-Connection Hub</h1>
+  <img class="imgee" src="Image/App.png" alt="">
+  <h4>Follow us on socialmedia</h4>
+  <img class="socia" src="Image/socialmedia.png" alt="">
+</div>
+</footer>
+</html>

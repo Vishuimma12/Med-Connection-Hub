@@ -1,0 +1,63 @@
+body {
+    font-family: system-ui;
+  }
+  
+  .extract {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .extract h1,
+  .extract h2 {
+    margin: 0;
+  }
+  
+  .extract p {
+    margin: 0;
+  }
+  
+  h2 {
+    opacity: .5;
+  }
+  
+  .extract-inner {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+  
+    min-width: 350px;
+    width: fit-content;
+    max-width: 100%;
+  }
+  
+  .extract-title {
+    width: fit-content;
+  }
+  
+  .extract-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    
+    min-width: 100%;
+    width: 0;
+    max-width: 100%;
+    
+    text-align: justify;
+  }
+  
+  .extract-description-icon {
+    align-self: stretch;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 96px;
+  }
+  
+  .extract-description path {
+    fill: #05a1ab;
+  }

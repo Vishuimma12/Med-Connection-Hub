@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Start your appointment request here.</h3>
+        <p class="text">
+          Call during local business hours to speak with an 
+          appointment coordinator. Because hold times vary, 
+          you can also use our online request above to tell us 
+          when to call you. If this is an emergency, call 911 or your
+           local emergency services.
+
+
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+
+            <p>Rochester, Minnesota
+              Central Appointment Office</p>
+          </div>
+          <div class="information">
+            <i class="fas fa-envelope"></i> &nbsp &nbsp
+            <p>lorem@ipsum.com</p>
+          </div>
+          <div class="information">
+            <i class="fas fa-phone"></i>&nbsp&nbsp
+            <p>507-538-3270</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Connect with us :</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="index.html" autocomplete="off">
+          <h3 class="title">Book appointment</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Name</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">ConnectCare: Share Your Concerns, Book Your Appointment</label>
+            <span>Message</span>
+          </div>
+          <Button class="btn" type="submit" onclick="showAlert()">submit</Button>
+          <Script>
+                    function showAlert() {
+            alert("Thank you for submitting the needed information. We will review your submission and get back to you as soon as possible.");
+                    }
+          </Script>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
